@@ -1,0 +1,40 @@
+22:43:57,783 DEBUG devpinoyLogger:66 - Config file loaded !!!
+22:43:57,792 DEBUG devpinoyLogger:81 - OR file loaded !!!
+22:43:59,500 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+22:43:59,507 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+22:43:59,509 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:29968][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+22:43:59,520 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {}->http://localhost:29968][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+22:43:59,522 DEBUG MainClientExec:234 - Opening connection {}->http://localhost:29968
+22:43:59,523 DEBUG DefaultHttpClientConnectionOperator:131 - Connecting to localhost/127.0.0.1:29968
+22:43:59,525 DEBUG DefaultHttpClientConnectionOperator:138 - Connection established 127.0.0.1:55171<->127.0.0.1:29968
+22:43:59,526 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+22:43:59,526 DEBUG MainClientExec:255 - Executing request POST /session HTTP/1.1
+22:43:59,526 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+22:43:59,526 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+22:43:59,528 DEBUG headers:135 - http-outgoing-0 >> POST /session HTTP/1.1
+22:43:59,528 DEBUG headers:138 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+22:43:59,529 DEBUG headers:138 - http-outgoing-0 >> Content-Length: 122
+22:43:59,530 DEBUG headers:138 - http-outgoing-0 >> Host: localhost:29968
+22:43:59,530 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+22:43:59,530 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/15.0.1)
+22:43:59,530 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+22:43:59,531 DEBUG wire:72 - http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+22:43:59,531 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+22:43:59,531 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 122[\r][\n]"
+22:43:59,531 DEBUG wire:72 - http-outgoing-0 >> "Host: localhost:29968[\r][\n]"
+22:43:59,531 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+22:43:59,532 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/15.0.1)[\r][\n]"
+22:43:59,532 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+22:43:59,532 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+22:43:59,532 DEBUG wire:86 - http-outgoing-0 >> "{"desiredCapabilities":{"browserName":"chrome","chromeOptions":{"args":[],"extensions":[]},"version":"","platform":"ANY"}}"
+22:44:01,470 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+22:44:01,470 DEBUG wire:72 - http-outgoing-0 << "Content-Length:436[\r][\n]"
+22:44:01,471 DEBUG wire:72 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+22:44:01,471 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+22:44:01,471 DEBUG wire:86 - http-outgoing-0 << "{"sessionId":"337081dbf960675e13f3495cc3eccd75","status":33,"value":{"message":"session not created: This version of ChromeDriver only supports Chrome version 89\nCurrent browser version is 91.0.4472.77 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Windows NT 10.0.19042 x86_64)"}}"
+22:44:01,473 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+22:44:01,473 DEBUG headers:127 - http-outgoing-0 << Content-Length:436
+22:44:01,474 DEBUG headers:127 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+22:44:01,476 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+22:44:01,480 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {}->http://localhost:29968] can be kept alive indefinitely
+22:44:01,481 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {}->http://localhost:29968][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
