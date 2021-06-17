@@ -18,8 +18,7 @@ public class AddCustomerTest extends TestBase {
 	public void addCustomerTest(Hashtable<String,String> data) throws InterruptedException{
 		
 		
-		// Testing of Jenkins and github in progress
-		//  This is updated again
+		//  This file has been changed for 2nd Commit
 		if(!data.get("runmode").equals("Y")){
 			
 			throw new SkipException("Skipping the test case as the Run mode for data set is NO");
